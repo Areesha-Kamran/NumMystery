@@ -1,0 +1,28 @@
+{
+  "name": "command_line_interface_ts_number_guessing_game",
+  "version": "1.1.1",
+  "description": "The Number Guessing CLI Project is a fun and interactive command-line application written in TypeScript. This project challenges users to guess a randomly generated number within a specified range. It provides a simple yet engaging way to test and improve your number guessing skills.",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "cli-number-guessing": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Areesha Kamran",
+  "license": "ISC",
+  "dependencies": {
+    "@areesha_kamran/cli-number-guessing": "^1.0.1",
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
+    "@types/inquirer": "^9.0.7"
+  }
+}
